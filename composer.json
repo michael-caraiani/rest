@@ -1,0 +1,16 @@
+{
+    "name": "tisuit/rest",
+    "type": "library",
+    "description": "Rest package for TiSuit",
+    "license": "MIT",
+    "prefer-stable": true,
+    "require": {
+        "tuupola/slim-jwt-auth": "^2.3",
+        "zircote/swagger-php": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TiSuit\\Rest\\": "src/"
+        }
+    }
+}
