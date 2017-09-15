@@ -11,12 +11,14 @@ class ProviderTest extends TestCase
 {
     protected $container;
 
-    protected function setUp(): void {
-	    $dir = __DIR__.'/config/';
-	    $app = new \TiSuit\Core\App(['config_dir' => $dir]);
-	    $this->container = $app->getContainer();
-	    $this->container->register(new Provider());
+    protected function setUp(): void
+    {
+        $dir = __DIR__.'/config/';
+        $app = new \TiSuit\Core\App(['config_dir' => $dir]);
+        $this->container = $app->getContainer();
+        $this->container->register(new Provider());
     }
+
     public function testJwtAuthentication(): void
     {
         $this->assertInstanceOf('\Slim\Middleware\JwtAuthentication', $this->container->JwtAuthentication);
