@@ -32,7 +32,7 @@ return [
 ### Add new provider and middleware
 
 1. `\TiSuit\Rest\Provider` into your providers list (`suit.php` config)
-2. `JwtAuthentication` into your middlewares list (`suit.php` config)
+2. `jwt_auth` into your middlewares list (`suit.php` config)
 
 ## Documentation
 
