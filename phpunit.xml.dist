@@ -16,7 +16,7 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="TiSuite Rest">
+        <testsuite name="TiSuit REST">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

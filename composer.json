@@ -6,8 +6,7 @@
     "prefer-stable": true,
     "require": {
         "tisuit/core": "@stable",
-        "tuupola/slim-jwt-auth": "^2.3",
-        "zircote/swagger-php": "^2.0"
+        "tuupola/slim-jwt-auth": "^3.0"
     },
     "autoload": {
         "psr-4": {

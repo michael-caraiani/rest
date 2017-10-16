@@ -21,6 +21,6 @@ class ProviderTest extends TestCase
 
     public function testJwtAuthentication(): void
     {
-        $this->assertInstanceOf('\Slim\Middleware\JwtAuthentication', $this->container->jwt_auth);
+        $this->assertInstanceOf('\Tuupola\Middleware\JwtAuthentication', $this->container->jwt_middlewire);
     }
 }
