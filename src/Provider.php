@@ -6,7 +6,6 @@ namespace TiSuit\Rest;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Tuupola\Middleware\JwtAuthentication;
 
