@@ -6,7 +6,7 @@
     "prefer-stable": true,
     "require": {
         "tisuit/core": "@stable",
-        "tuupola/slim-jwt-auth": "3.0.0-rc.2"
+        "tuupola/slim-jwt-auth": "3.0.0-rc.5"
     },
     "autoload": {
         "psr-4": {
